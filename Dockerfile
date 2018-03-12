@@ -1,4 +1,4 @@
-FROM gcr.io/google_containers/ubuntu-slim:latest
+FROM gcr.io/google_containers/ubuntu-slim
 MAINTAINER Ryo Sakamoto <sakamoto@chatwork.com>
 
 # Disable prompts from apt.
