@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV KUBE_VERSION 1.8.4
 ENV TINI_VERSION 0.17.0
 
-# install kubectl, awscli
+# install kubectl
 RUN apt-get update -y \
  && apt-get install -y --no-install-recommends ca-certificates jq curl wget \
  && curl -LO https://storage.googleapis.com/kubernetes-release/release/v${KUBE_VERSION}/bin/linux/amd64/kubectl \
